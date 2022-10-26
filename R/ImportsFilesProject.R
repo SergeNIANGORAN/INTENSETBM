@@ -1,17 +1,11 @@
 #' Function to directly import project databases files
 #'
-#'@param .
-#'@param
+#'@param URL .
+#'@param API_KEY .
+#'@param REF_IDENTIFIER .
+#'@param pathSave .
 #'
-#'@param
-#'@param
-#'
-#'@return a object of class \code{CytOpt}, which is a list of two elements:\itemize{
-#'   \item \code{proportions} a \code{data.frame} with the (optionally true and)
-#'   estimated proportions for each \code{method}
-#'   \item \code{monitoring} a list of estimates over the optimization iterations
-#'   for each \code{method} (listed within)
-#' }
+#'@return a list of object of class \code{ImportsFilesProject}, which is a list of several data
 #'
 #'@importFrom reticulate import_from_path
 #'@importFrom stats sd
