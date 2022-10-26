@@ -34,7 +34,7 @@ pathPython <- "C:/Program Files/Python37"
 reticulate::use_python(pathPython)
 
 generateFileData <- function(URL, API_KEY, REF_IDENTIFIER, pathSave){
-  pathOfFilesPython <- "C:/PYTHON_SCRIPTS/redcapy_import_intensetbm"
+  pathOfFilesPython <- "inst"
   codePython <- reticulate::py_run_file(paste0(pathOfFilesPython,"/script_csv_intensetbm_copy.py"))
   codePython$test_function(URL, API_KEY, REF_IDENTIFIER, pathSave)
 }
