@@ -1,11 +1,23 @@
 Package: INTENSETBM
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Import and treatment of Redcap database for clinical trials
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Authors@R: c(person("Serge Bessekon", "Niangoran", role = c("aut", "cre"), email = "bessekon.niangoran@u-bordeaux.fr"))
+Maintainer: Serge Bessekon Niangoran <bessekon.niangoran@u-bordeaux.fr>
+SystemRequirements: Python (>= 3.7)
+Description: This package deals with the importation and treatments of the Redcap clinical Database.
+             The main objective of this package is to facilitate access to the Redcap database
+             of clinical trials managed by the PACCI program and to import all the data for
+             the purpose of analyzing them. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+imports:
+  data.table,
+  reticulate

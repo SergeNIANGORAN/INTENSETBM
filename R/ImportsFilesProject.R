@@ -34,7 +34,7 @@ generateFileData <- function(URL, API_KEY, REF_IDENTIFIER, pathSave){
 }
 
 
-generateFileData(URL = 'https://intense-tbm.pacci.ci/api/',
-                 API_KEY = '4C0097230C6C8E0CA468357CCAED572B',
-                 REF_IDENTIFIER = 'record_id',
-                 pathSave = "C:/PROJETS/Projet INTENSE TBM/DATABASES/FileSave")
+generateFileData(URL = '' ,
+                 API_KEY = '',
+                 REF_IDENTIFIER = '',
+                 pathSave = "")
