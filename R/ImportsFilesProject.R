@@ -1,9 +1,9 @@
 #' Function to directly import project databases files
 #'
-#'@param URL .
-#'@param API_KEY .
-#'@param REF_IDENTIFIER .
-#'@param pathSave .
+#'@param URL define the Database API internet links where the data can be got.
+#'@param API_KEY is the API Token which is generate by the DataManager.
+#'@param REF_IDENTIFIER is the record identifier used in the database to crypte patients informations.
+#'@param pathSave is the directory wher we want to save the output files.
 #'
 #'@return a list of object of class \code{ImportsFilesProject}, which is a list of several data
 #'
